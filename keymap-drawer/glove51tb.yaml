@@ -125,7 +125,7 @@ layers:
   - Gui+V
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mkp MB5'
   - '&mkp LCLK'
   - {t: UP ARROW, type: held}
   - '&mkp RCLK'
@@ -139,7 +139,7 @@ layers:
   - Alt+V
   - '&ind_bat'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mkp MB4'
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
