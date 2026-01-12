@@ -33,7 +33,7 @@ layers:
   - C
   - V
   - B
-  - SCROLL
+  - B
   - ''''
   - N
   - M
@@ -71,7 +71,7 @@ layers:
   - '#'
   - $
   - '%'
-  - {t: ▽, type: trans}
+  - BT PRV
   - {t: ▽, type: trans}
   - LCTRL
   - '&'
@@ -85,7 +85,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BT NXT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
