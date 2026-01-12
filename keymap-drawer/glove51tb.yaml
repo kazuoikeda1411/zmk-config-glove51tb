@@ -72,7 +72,7 @@ layers:
   - $
   - '%'
   - BT PRV
-  - {t: ▽, type: trans}
+  - BT CLR ALL
   - LCTRL
   - '&'
   - '*'
