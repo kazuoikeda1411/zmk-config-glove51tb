@@ -131,7 +131,7 @@ layers:
   - '&mkp RCLK'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: Gui+LEFT CONTROL, h: toggle}
+  - Gui+LEFT CONTROL
   - Gui+Z
   - Gui+X
   - {t: ▽, type: trans}
