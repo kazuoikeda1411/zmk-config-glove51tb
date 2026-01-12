@@ -88,10 +88,10 @@
         number_layer {
             label = "NUM";
             bindings = <
-&trans     &kp N1           &kp N2       &kp N3    &kp N4      &kp N5                               &kp N6     &kp N7         &kp N8        &kp N9                &kp N0                 &kp MINUS
-&kp GRAVE  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT  &bt BT_PRV  &trans      &kp LCTRL  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
-&trans     &trans           &trans       &trans    &trans      &trans       &bt BT_NXT  &trans      &trans     &trans         &trans        &trans                &trans                 &trans
-&trans     &trans           &trans       &trans    &trans      &kp SPACE    &trans      &kp DELETE  &trans                                                        &trans                 &trans
+&trans     &kp N1           &kp N2       &kp N3    &kp N4      &kp N5                                   &kp N6     &kp N7         &kp N8        &kp N9                &kp N0                 &kp MINUS
+&kp GRAVE  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT  &bt BT_PRV  &bt BT_CLR_ALL  &kp LCTRL  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
+&trans     &trans           &trans       &trans    &trans      &trans       &bt BT_NXT  &trans          &trans     &trans         &trans        &trans                &trans                 &trans
+&trans     &trans           &trans       &trans    &trans      &kp SPACE    &trans      &kp DELETE      &trans                                                        &trans                 &trans
             >;
         };
 
