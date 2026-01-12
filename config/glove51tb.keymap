@@ -76,10 +76,10 @@
         default_layer {
             label = "DEFAULT";
             bindings = <
-&kp ESC           &kp Q  &kp W             &kp E         &kp R         &kp T                                   &kp Y  &kp U  &kp I      &kp O    &kp P          &kp BSPC
-&kp TAB           &kp A  &kp S             &kp D         &kp F         &kp G      &trans     &trans            &kp H  &kp J  &kp K      &kp L    &kp SEMI       &kp RETURN
-&kp LEFT_SHIFT    &kp Z  &kp X             &kp C         &kp V         &kp B      &mo 5      &kp SINGLE_QUOTE  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH       &kp RIGHT_SHIFT
-&kp LEFT_CONTROL  &mo 2  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_GUI  &mkp LCLK  &kp SPACE  &kp SPACE         &mo 3                             &kp BACKSLASH  &trans
+&kp TAB           &kp Q  &kp W             &kp E         &kp R      &kp T                                     &kp Y        &kp U  &kp I      &kp O    &kp P          &kp MINUS
+&kp CLCK          &kp A  &kp S             &kp D         &kp F      &kp G        &trans     &trans            &kp H        &kp J  &kp K      &kp L    &kp SEMI       &kp SINGLE_QUOTE
+&kp LEFT_SHIFT    &kp Z  &kp X             &kp C         &kp V      &kp B        &mo 5      &kp SINGLE_QUOTE  &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH       &kp PLUS
+&kp LEFT_CONTROL  &mo 2  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp SPACE  &lt 2 SPACE  &kp SPACE  &kp BACKSPACE     &lt 1 ENTER                             &kp BACKSLASH  &trans
             >;
 
             sensor-bindings = <&mouse_wheel_scroll SCRL_UP SCRL_DOWN>;
@@ -88,20 +88,20 @@
         number_layer {
             label = "NUM";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                          &trans  &trans
+&trans     &kp N1           &kp N2       &kp N3    &kp N4      &kp N5                           &kp N6     &kp N7         &kp N8        &kp N9                &kp N0                 &kp MINUS
+&kp GRAVE  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT  &trans  &trans      &kp LCTRL  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
+&trans     &trans           &trans       &trans    &trans      &trans       &trans  &trans      &trans     &trans         &trans        &trans                &trans                 &trans
+&trans     &trans           &trans       &trans    &trans      &trans       &trans  &kp DELETE  &trans                                                        &trans                 &trans
             >;
         };
 
         symbol_layer {
             label = "SYM";
             bindings = <
-&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3    &bt BT_SEL 4                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans        &trans        &trans        &bt BT_CLR_ALL  &bt BT_CLR    &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans        &trans        &trans        &trans          &ind_con      &ind_bat  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans        &trans        &trans        &trans          &trans        &trans    &trans  &trans                          &trans  &trans
+&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3    &bt BT_SEL 4                    &trans  &trans          &kp ENTER       &trans           &trans  &trans
+&trans  &trans        &trans        &trans        &bt BT_CLR_ALL  &bt BT_CLR    &trans    &trans  &trans  &mkp LCLK       &kp UP_ARROW    &mkp RCLK        &trans  &trans
+&trans  &trans        &trans        &trans        &trans          &ind_con      &ind_bat  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
+&trans  &trans        &trans        &trans        &trans          &trans        &trans    &trans  &trans                                                   &trans  &trans
             >;
         };
 
