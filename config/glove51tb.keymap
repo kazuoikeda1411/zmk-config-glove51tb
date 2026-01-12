@@ -75,10 +75,10 @@
         default_layer {
             label = "DEFAULT";
             bindings = <
-&kp TAB           &kp Q  &kp W             &kp E         &kp R      &kp T                                     &kp Y        &kp U  &kp I      &kp O    &kp P          &kp MINUS
-&kp CLCK          &kp A  &kp S             &kp D         &lt 5 F    &kp G        &trans     &trans            &kp H        &kp J  &lt 2 K    &kp L    &kp SEMI       &kp SINGLE_QUOTE
-&kp LEFT_SHIFT    &kp Z  &kp X             &kp C         &kp V      &kp B        &mo 5      &kp SINGLE_QUOTE  &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH       &kp PLUS
-&kp LEFT_CONTROL  &mo 2  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp SPACE  &lt 2 SPACE  &kp SPACE  &kp BACKSPACE     &lt 1 ENTER                             &kp BACKSLASH  &trans
+&kp TAB         &kp Q  &kp W             &kp E         &kp R      &kp T                                     &kp Y        &kp U  &kp I      &kp O    &kp P          &kp MINUS
+&kp CLCK        &kp A  &kp S             &kp D         &lt 5 F    &kp G        &trans     &trans            &kp H        &kp J  &lt 2 K    &kp L    &kp SEMI       &kp SINGLE_QUOTE
+&kp LEFT_SHIFT  &kp Z  &kp X             &kp C         &kp V      &kp B        &mo 5      &kp SINGLE_QUOTE  &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH       &kp PLUS
+&kp LEFT_WIN    &mo 2  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp SPACE  &lt 2 SPACE  &kp SPACE  &kp BACKSPACE     &lt 1 ENTER                             &kp BACKSLASH  &trans
             >;
 
             sensor-bindings = <&mouse_wheel_scroll SCRL_UP SCRL_DOWN>;
@@ -97,9 +97,9 @@
         symbol_layer {
             label = "SYM";
             bindings = <
-&kp ESC    &kp LC(Q)  &kp LC(W)  &kp LC(E)  &kp LC(R)     &kp LC(T)                    &trans  &trans          &kp ENTER       &trans           &trans  &trans
-&kp TILDE  &kp LC(A)  &kp LC(S)  &kp LC(F)  &kp LC(C_PP)  &kp LC(V)  &trans    &trans  &trans  &mkp LCLK       &kp UP_ARROW    &mkp RCLK        &trans  &trans
-&trans     &kp LC(Z)  &kp LC(X)  &trans     &trans        &kp LA(V)  &ind_bat  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
+&kp ESC    &kp LG(Q)  &kp LG(W)  &kp LG(E)  &kp LG(R)     &kp LG(T)                    &trans  &trans          &kp ENTER       &trans           &trans  &kp LS(MINUS)
+&kp TILDE  &kp LG(A)  &kp LG(S)  &kp LG(F)  &kp LG(C_PP)  &kp LG(V)  &trans    &trans  &trans  &mkp LCLK       &kp UP_ARROW    &mkp RCLK        &trans  &trans
+&trans     &kp LG(Z)  &kp LG(X)  &trans     &trans        &kp LA(V)  &ind_bat  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
 &trans     &trans     &trans     &trans     &trans        &trans     &trans    &trans  &trans                                                   &trans  &trans
             >;
         };
