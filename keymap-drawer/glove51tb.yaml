@@ -47,7 +47,7 @@ layers:
   - LEFT ALT
   - {t: SPACE, h: LEFT GUI}
   - {t: SPACE, h: SYM}
-  - SPACE
+  - {t: SPACE, h: SCROLL}
   - BACKSPACE
   - {t: ENTER, h: NUM}
   - \
@@ -100,7 +100,7 @@ layers:
   - {t: ▽, type: trans}
   - SPACE
   - {t: ▽, type: trans}
-  - AC DEL
+  - Ctl+D
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -277,7 +277,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: Gui+Sft+4, type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -300,7 +300,7 @@ layers:
   - '['
   - ']'
   - \
-  - {t: ▽, type: trans}
+  - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
