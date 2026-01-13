@@ -98,10 +98,10 @@
         symbol_layer {
             label = "SYM";
             bindings = <
-&kp ESC               &kp LG(Q)  &kp LG(W)  &kp LG(E)  &kp LG(R)  &kp LG(T)                    &trans    &trans          &kp ENTER       &trans           &trans  &kp LS(MINUS)
-&kp TILDE             &kp LG(A)  &kp LG(S)  &kp LG(F)  &kp LG(C)  &kp LG(V)  &trans    &trans  &mkp MB5  &mkp LCLK       &kp UP_ARROW    &mkp RCLK        &trans  &trans
-&kp LG(LEFT_CONTROL)  &kp LG(Z)  &kp LG(X)  &trans     &trans     &kp LC(V)  &ind_bat  &trans  &mkp MB4  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
-&kp LG(LEFT_CONTROL)  &trans     &trans     &trans     &trans     &trans     &trans    &trans  &trans                                                     &trans  &trans
+&kp ESC               &kp LG(Q)  &kp LG(W)  &kp LG(E)  &kp LG(R)  &kp LG(T)                       &trans    &trans          &kp ENTER       &trans           &trans  &kp LS(MINUS)
+&kp TILDE             &kp LG(A)  &kp LG(S)  &kp LG(F)  &kp LG(C)  &kp LG(V)  &trans    &trans     &mkp MB5  &mkp LCLK       &kp UP_ARROW    &mkp RCLK        &trans  &trans
+&kp LG(LEFT_CONTROL)  &kp LG(Z)  &kp LG(X)  &trans     &trans     &kp LC(V)  &ind_bat  &trans     &mkp MB4  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
+&kp LG(LEFT_CONTROL)  &trans     &trans     &trans     &trans     &trans     &trans    &kp LC(D)  &trans                                                     &trans  &trans
             >;
         };
 
