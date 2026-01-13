@@ -29,8 +29,8 @@ layers:
   - ''''
   - LEFT SHIFT
   - Z
-  - X
-  - C
+  - {t: X, h: LEFT ALT}
+  - {t: C, h: Sft+LEFT ALT}
   - V
   - B
   - B
@@ -43,9 +43,9 @@ layers:
   - +
   - LEFT WIN
   - SYM
-  - LEFT CONTROL
+  - Alt+LEFT SHIFT
   - LEFT ALT
-  - SPACE
+  - {t: SPACE, h: LEFT GUI}
   - {t: SPACE, h: SYM}
   - SPACE
   - BACKSPACE
@@ -82,7 +82,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+C
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - BT NXT
@@ -100,7 +100,7 @@ layers:
   - {t: ▽, type: trans}
   - SPACE
   - {t: ▽, type: trans}
-  - DELETE
+  - AC DEL
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -121,7 +121,7 @@ layers:
   - Gui+A
   - Gui+S
   - Gui+F
-  - Gui+PP
+  - Gui+C
   - Gui+V
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -136,7 +136,7 @@ layers:
   - Gui+X
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Alt+V
+  - Ctl+V
   - '&ind_bat'
   - {t: ▽, type: trans}
   - '&mkp MB4'
