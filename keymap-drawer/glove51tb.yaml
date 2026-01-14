@@ -18,7 +18,7 @@ layers:
   - S
   - D
   - {t: F, h: SCROLL}
-  - {t: G, h: LEFT SHIFT}
+  - G
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - H
@@ -29,8 +29,8 @@ layers:
   - ''''
   - LEFT SHIFT
   - Z
-  - {t: X, h: LEFT ALT}
-  - {t: C, h: Sft+LEFT ALT}
+  - X
+  - C
   - V
   - B
   - B
@@ -48,7 +48,7 @@ layers:
   - {t: SPACE, h: LEFT GUI}
   - {t: SPACE, h: SYM}
   - {t: SPACE, h: SCROLL}
-  - BACKSPACE
+  - {t: BACKSPACE, h: LEFT SHIFT}
   - {t: ENTER, h: NUM}
   - \
   - {t: ▽, type: trans}
