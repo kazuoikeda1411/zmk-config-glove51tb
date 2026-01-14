@@ -18,7 +18,7 @@ layers:
   - S
   - D
   - {t: F, h: SCROLL}
-  - G
+  - {t: G, h: LEFT SHIFT}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - H
@@ -40,7 +40,7 @@ layers:
   - {t: ',', h: SCROLL}
   - .
   - /
-  - +
+  - '='
   - LEFT WIN
   - SYM
   - Alt+LEFT SHIFT
