@@ -56,6 +56,10 @@
     };
 
     behaviors {
+        behavior-tap-ms {
+            compatible = "zmk,behavior-tap-ms";
+            tap-ms = <200>;  // タップとホールドの判定時間
+        };
         sensor_rotate_kp: sensor_rotate_kp {
             compatible = "zmk,behavior-sensor-rotate-var";
             #sensor-binding-cells = <2>;
