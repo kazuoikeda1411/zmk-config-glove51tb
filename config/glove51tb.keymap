@@ -70,10 +70,11 @@
             tap-ms = <20>;
         };
 
-        fast_ht: fast_ht {
+        g_fast: g_fast {
             compatible = "zmk,behavior-hold-tap";
             flavor = "tap-preferred";
             tapping-term-ms = <160>;
+            bindings = <&kp G>, <&kp LEFT_SHIFT>;
         };
     };
 
