@@ -71,7 +71,7 @@ layers:
   - '#'
   - $
   - '%'
-  - BT PRV
+  - '&bl BL_OFF'
   - BT CLR ALL
   - LCTRL
   - '&'
