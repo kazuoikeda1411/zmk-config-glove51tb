@@ -69,6 +69,12 @@
 
             tap-ms = <20>;
         };
+
+        fast_ht: fast_ht {
+            compatible = "zmk,behavior-hold-tap";
+            flavor = "tap-preferred";
+            tapping-term-ms = <160>;
+        };
     };
 
     keymap {
