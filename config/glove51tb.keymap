@@ -76,6 +76,18 @@
             tapping-term-ms = <160>;
             bindings = <&kp G>, <&kp LEFT_SHIFT>;
         };
+        f_fast: f_fast {
+            compatible = "zmk,behavior-hold-tap";
+            flavor = "tap-preferred";
+            tapping-term-ms = <160>;
+            bindings = <&kp F>, <&mo 5>;
+        };
+        space_fast: space_fast {
+            compatible = "zmk,behavior-hold-tap";
+            flavor = "tap-preferred";
+            tapping-term-ms = <160>;
+            bindings = <&kp SPACE>, <&kp LEFT_GUI>;
+        };
     };
 
     keymap {
