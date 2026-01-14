@@ -20,7 +20,7 @@ layers:
   - {t: F, h: SCROLL}
   - G
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - H
   - H
   - J
   - {t: K, h: SYM}
@@ -34,7 +34,7 @@ layers:
   - V
   - B
   - B
-  - ''''
+  - N
   - N
   - M
   - {t: ',', h: SCROLL}
