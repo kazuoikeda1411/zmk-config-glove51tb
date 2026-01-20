@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: glove51tb}
 layers:
   DEFAULT:
-  - TAB
+  - {t: TAB, h: Gui+LEFT SHIFT}
   - Q
   - W
   - E
@@ -45,7 +45,7 @@ layers:
   - LEFT CONTROL
   - Alt+LEFT SHIFT
   - LEFT ALT
-  - {t: SPACE, h: LEFT SHIFT}
+  - {t: SPACE, h: LEFT GUI}
   - {t: SPACE, h: SYM}
   - {t: SPACE, h: SCROLL}
   - BACKSPACE
@@ -53,7 +53,7 @@ layers:
   - \
   - {t: ▽, type: trans}
   NUM:
-  - '~'
+  - Ctl+TAB
   - '1'
   - '2'
   - '3'
@@ -79,7 +79,7 @@ layers:
   - (
   - )
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '~'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Ctl+C
@@ -130,7 +130,7 @@ layers:
   - {t: UP ARROW, type: held}
   - '&mkp RCLK'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - F12
   - Gui+LEFT CONTROL
   - Gui+Z
   - Gui+X
