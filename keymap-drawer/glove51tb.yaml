@@ -41,19 +41,19 @@ layers:
   - .
   - /
   - '='
-  - LEFT WIN
-  - SYM
+  - LEFT GUI
+  - LEFT CONTROL
   - Alt+LEFT SHIFT
   - LEFT ALT
-  - {t: SPACE, h: LEFT GUI}
+  - {t: SPACE, h: LEFT SHIFT}
   - {t: SPACE, h: SYM}
   - {t: SPACE, h: SCROLL}
-  - {t: BACKSPACE, h: LEFT SHIFT}
+  - BACKSPACE
   - {t: ENTER, h: NUM}
   - \
   - {t: ▽, type: trans}
   NUM:
-  - {t: ▽, type: trans}
+  - '~'
   - '1'
   - '2'
   - '3'
@@ -71,7 +71,7 @@ layers:
   - '#'
   - $
   - '%'
-  - '&bl BL_OFF'
+  - {t: ▽, type: trans}
   - BT CLR ALL
   - LCTRL
   - '&'
@@ -85,8 +85,8 @@ layers:
   - Ctl+C
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - BT NXT
-  - {t: ▽, type: trans}
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
