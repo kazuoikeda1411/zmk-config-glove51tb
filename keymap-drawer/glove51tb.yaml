@@ -134,7 +134,7 @@ layers:
   - Gui+LEFT CONTROL
   - Gui+Z
   - Gui+X
-  - {t: ▽, type: trans}
+  - Ctl+Alt+H
   - {t: ▽, type: trans}
   - Ctl+V
   - '&ind_bat'
